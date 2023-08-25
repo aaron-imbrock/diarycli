@@ -10,18 +10,18 @@ One CLI command to create and organize your diaries in the terminal.
 
 `$ diary 2020-01-01` create a diary entry for 2020/01/01 in the appropriate file path.
 
-Use environment argument `DIARY_DIR` and `DIARY_EDITOR` to configure where the diary are and what editor to use, by default, it use `vim` as editor and `~/diary` as path for diary.
+Use environment argument `DIARY_DIR` and `DIARY_EDITOR` to configure where the diary are and what editor to use, by default, we use `vim` as editor and `~/diary` as path for diary.
 
-When installing via `pip`, if you see following message:
+When installing via `pip`, if you see the following message:
 
-```
+```bash
 WARNING: The script diary is installed in '/some/path/examples/bin' which is not on PATH
 Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location
 ```
 
 You may want to add this location to `PATH`, to do that, add the following line to your `.rc` file:
 
-```
+```bash
 export PATH=$PATH:/some/path/examples/bin
 ```
 
