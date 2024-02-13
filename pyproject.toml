@@ -1,21 +1,21 @@
 [project]
 name = "diarycli"
-version = "0.2.0"
-description = "A CLI program that help creates diary and organize them"
+version = "0.3.0"
+description = "A CLI program that help creates diaries and organize them"
 readme = "README.md"
 license = {file = "LICENSE.txt"}
 keywords = ["diary", "cli", "vim"]
 authors = [
-  {name = "Rocky Li", email = "aperocky@gmail.com" }
+  {name = "Aaron Imbrock", email = "dev@sizza.net" }
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Aperocky/diarycli"
-"Source" = "https://github.com/Aperocky/diarycli"
+"Homepage" = "https://github.com/aaron-imbrock/diarycli"
+"Source" = "https://github.com/aaron-imbrock/diarycli"
 
 [project.scripts]
 diary = "diarycli:main"
 
 [build-system]
-requires = ["setuptools>=43.0.0", "wheel"]
+requires = ["setuptools>=43.0.0"]
 build-backend = "setuptools.build_meta"
